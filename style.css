@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.supscription_page{
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.supscription__page__title h1{
+    width:900px;
+    background-color: palevioletred;
+    text-align: center; /* adjust the text to centre*/
+    padding: 10px;
+}
+
+.container{
+    
+    display:flex;
+    justify-content: center;
+    padding:10px;
+    margin: 20px;
+}
+
+.container__offer{
+    background-color: black;
+    color:white;
+    padding:20px;
+    margin:20px;
+    
+}
+.container__offer h1{
+    text-align: center;/*price tag adjust to center*/
+}
+.container__offer__desc{
+    border:solid white 1px;
+    padding:20px;
+    border-radius: 8px;
+    
+}
+.container__offer__desc img{
+    height:10px;
+    width:10px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+.container__offer__desc p{
+    margin:10px;
+    
+}
